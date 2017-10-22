@@ -1,3 +1,5 @@
+/bootstrap/cache
+/storage
 /vendor
 /node_modules
 Homestead.yaml
