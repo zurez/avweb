@@ -17,3 +17,8 @@ Route::get('aadhaar',"PageController@aadhaar");
 Route::get('pension_auto',"PageController@pension_auto");
 Route::get('pension_manual',"PageController@pension_manual");
 Route::get('payment_folder',"PageController@payment_folder");
+Route::get('reports',"PageController@reports");
+Route::get('passbook',"PageController@passbook");
+Route::get('reports',"PageController@reports");
+Route::get('reports',"PageController@reports");
+Route::get('reports',"PageController@reports");
