@@ -28,26 +28,36 @@ class PageController extends Controller
     {
         return view("pension_auto");
     }
-    /*    public function aadhar()
+    public function pension_manual()
     {
-        return view("aadhar");
+        return view("pension_manual");
     }
-        public function aadhar()
+    public function payment_folder()
     {
-        return view("aadhar");
+        return view("payment_folder");
     }
-        public function aadhar()
+    public function reports()
     {
-        return view("aadhar");
+        return view("reports");
     }
-        public function aadhar()
+    public function passbook()
     {
-        return view("aadhar");
+        return view("passbook");
     }
-        public function aadhar()
+    public function allotment()
     {
-        return view("aadhar");
+        return view("allotment");
     }
-
-    */
+    public function uc()
+    {
+        return view("uc");
+    }
+    public function sanction()
+    {
+        return view("sanction");
+    }
+    public function sanct_allot()
+    {
+        return view("sanct_allot");
+    }
 }
