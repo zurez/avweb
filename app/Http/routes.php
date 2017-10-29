@@ -15,3 +15,4 @@ Route::get('/',"PageController@index");
 Route::get('dashboard',"PageController@dashboard");
 Route::get('aadhaar',"PageController@aadhaar");
 Route::get('pension_auto',"PageController@pension_auto");
+Route::get('pension_manual',"PageController@pension_manual");
