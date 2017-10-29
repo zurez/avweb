@@ -149,11 +149,7 @@
 
      
         <div id="page-wrapper" style="background:url('{{asset('img/rough_diagonal.png')}}');">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h4 class="page-header">Dashboard</h4>
-                </div>
-            </div>
+            
             @yield("content")
         </div>
         <!-- /#page-wrapper -->
@@ -180,7 +176,34 @@
     <script src="{{asset('js/sb-admin-2.js')}}"></script>
         <!-- Metis Menu Plugin JavaScript -->
     <script src="{{asset('js/metisMenu.min.js')}}"></script>
-    
+    <script type="text/javascript">
+               function showhide()
+ {
+       var div = document.getElementById("table");
+if (div.style.display !== "none") {
+    div.style.display = "block";
+}
+else {
+    div.style.display = "block";
+}
+ }
+</script>
+
+<script>
+       
+       function toggle(source) {
+  checkboxes = document.getElementsByName('foo');
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+    checkboxes[i].checked = source.checked;
+  }
+}
+       
+</script>
+
+    <script>function myFunction() {
+    alert("Payment File Approved!");
+}</script>
+    </script>
 
 
 </body>

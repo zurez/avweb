@@ -1,5 +1,6 @@
 @extends("layout.common")
 @section("content")
+<br><br><br><br><br><br>
 <div class="row">
                 <div class="col-sm-4">
         
