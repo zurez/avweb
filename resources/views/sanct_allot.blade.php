@@ -56,7 +56,7 @@
                                     <td class='text-center'>24/07/2016</td>
                                     <td class='text-center'>43000000</td>
                                     <td class='text-center'>13500000</td>
-                                    <td class='text-center'><a href="sanction.html"><button class="btn btn-primary" >New Sanction</button></a></td>
+                                    <td class='text-center'><a href="{{url('sanction')}}"><button class="btn btn-primary" >New Sanction</button></a></td>
                                     
                                 </tr>
                                 
@@ -66,7 +66,7 @@
                                     <td class='text-center'>16/09/2017</td>
                                     <td class='text-center'>67000000</td>
                                     <td class='text-center'>45400000</td>
-                                    <td class='text-center'><a href="sanction.html"><button class="btn btn-primary" >New Sanction</button></a></td>
+                                    <td class='text-center'><a href="{{url('sanction')}}"><button class="btn btn-primary" >New Sanction</button></a></td>
                                     
                                 </tr>
                                 
@@ -76,7 +76,7 @@
                                     <td class='text-center'>10/10/2017</td>
                                     <td class='text-center'>65000000</td>
                                     <td class='text-center'>25001000</td>
-                                    <td class='text-center'><a href="sanction.html"><button class="btn btn-primary" >New Sanction</button></a></td>
+                                    <td class='text-center'><a href="{{url('sanction')}}"><button class="btn btn-primary" >New Sanction</button></a></td>
                                     
                                 </tr>
                                 
@@ -86,7 +86,7 @@
                                     <td class='text-center'>22/07/2015</td>
                                     <td class='text-center'>67000000</td>
                                     <td class='text-center'>43200000</td>
-                                    <td class='text-center'><a href="sanction.html"><button class="btn btn-primary" >New Sanction</button></a></td>
+                                    <td class='text-center'><a href="{{url('sanction')}}"><button class="btn btn-primary" >New Sanction</button></a></td>
                                     
                                 </tr>
                                 
@@ -96,7 +96,7 @@
                                     <td class='text-center'>15/04/2017</td>
                                     <td class='text-center'>11800000</td>
                                     <td class='text-center'>9700000</td>
-                                    <td class='text-center'><a href="sanction.html"><button class="btn btn-primary" >New Sanction</button></a></td>
+                                    <td class='text-center'><a href="{{url('sanction')}}"><button class="btn btn-primary" >New Sanction</button></a></td>
                                 </tr>
                                 
                                  <tr>
@@ -105,7 +105,8 @@
                                     <td class='text-center'>24/09/2016</td>
                                     <td class='text-center'>478600000</td>
                                     <td class='text-center'>142500000</td>
-                                    <td class='text-center'><a href="sanction.html"><button class="btn btn-primary" >New Sanction</button></a></td>
+                                    <td class='text-center'><a href="
+                                        {{url('sanction')}}"><button class="btn btn-primary" >New Sanction</button></a></td>
                                     
                                 </tr>
                             </tbody>
